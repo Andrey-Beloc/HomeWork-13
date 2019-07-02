@@ -171,10 +171,11 @@ body{
 }
 
 .home-descriptions{
+    width: 310px;
     font-size: 36px;
     font-weight: 400;
     color:#fff;
-    padding: 27px 0 0 42px; 
+    margin: 27px 0 0 42px; 
 }
 
 /*-----accessories-----*/
@@ -192,8 +193,7 @@ body{
     float: left;
     width: 61%;
     margin-right: 2%; 
-    background: url(image/bd-peak.png) no-repeat;
-    background-size: cover;
+    background: url(image/bd-peak.png) no-repeat right top #71b6c3;    
 }
 
 .accessories-title{
@@ -204,6 +204,7 @@ body{
 }
 
 .accessories-descriptions{
+    width: 200px;
     color: #fff;
     font-size: 24px;
     font-weight: 400;
@@ -372,8 +373,7 @@ input[type="submit"]:active{
 .cameras{
     float: left;
     width: 44%;
-    background: url(image/bg-camerass.png) no-repeat;
-    background-size: cover;
+    background: url(image/bg-camerass.png) no-repeat right bottom  #1ab467;
 }
 
 .cameras-title{
@@ -381,9 +381,10 @@ input[type="submit"]:active{
 }
 
 .cameras-descriptions{
+    width: 210px;
     color:#fff;
     font-size: 20px;
-    padding: 23px 0 0 42px;
+    margin: 23px 0 0 42px;
     font-weight: 200;
 }
 
